@@ -78,10 +78,11 @@ export default function Popover() {
               <motion.span
                 aria-hidden
                 layoutId="title"
-                className="absolute text-sm font-figtree font-normal text-[#191716]/30 left-[21px] top-[20px]"
+                className={`absolute text-sm font-figtree font-normal text-[#191716]/30 left-[21px] top-[20px] ${
+                  feedback ? "!opacity-0" : ""
+                }`}
                 data-success={formState === "success" ? "true" : "false"}
                 data-feedback={feedback ? "true" : "false"}
-                style={{ opacity: feedback ? 0 : 1 }}
               >
                 Add note
               </motion.span>
