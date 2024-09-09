@@ -36,6 +36,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Caveat';
+  src: url('/fonts/Caveat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {

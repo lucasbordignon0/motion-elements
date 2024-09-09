@@ -20,6 +20,14 @@ export default function Home() {
           Popover Input
         </button>
       </Link>
+      <Link href="/cds-mix">
+        <button
+          type="button"
+          className="bg-blue-600 px-4 py-2 rounded-md text-sm text-white font-medium hover:bg-blue-700 transition-colors ease-out duration-200 active:bg-blue-900"
+        >
+          Cds Mix
+        </button>
+      </Link>
     </main>
   );
 }
