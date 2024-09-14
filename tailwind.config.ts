@@ -15,6 +15,7 @@ const config: Config = {
         formula1: ['Formula1', 'sans-serif'],
         figtree: ['Figtree', 'sans-serif'],
         caveat: ['Caveat', 'cursive'],
+        geist: ['Geist', 'sans-serif'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

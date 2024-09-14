@@ -43,6 +43,11 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Geist';
+  src: url(/fonts/Geist.ttf) format('truetype');
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {

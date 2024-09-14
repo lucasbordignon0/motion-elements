@@ -20,6 +20,14 @@ export default function Home() {
           Formula 1 - Driver States
         </button>
       </Link>
+      <Link href="/f1-live">
+        <button
+          type="button"
+          className="bg-blue-600 px-4 py-2 rounded-md text-sm text-white font-medium hover:bg-blue-700 transition-colors ease-out duration-200 active:bg-blue-900"
+        >
+          Formula 1 - Live Activity
+        </button>
+      </Link>
       <Link href="/popover">
         <button
           type="button"
