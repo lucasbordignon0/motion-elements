@@ -24,6 +24,7 @@ const config: Config = {
       },
       screens: {
         'mobile': { max: '480px' },
+        'desktop': { min: '481px' },
       }
     },
   },
