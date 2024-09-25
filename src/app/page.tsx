@@ -45,6 +45,11 @@ export default function Home() {
 
 const PROJECTS = [
   {
+    name: "Workout Schedule Drag and Drop",
+    link: "/drag-cards",
+    date: "2024-06-12",
+  },
+  {
     name: "Button Dropdown Menu",
     link: "/button-dropdown",
     date: "2024-09-14",
