@@ -9,45 +9,44 @@
 }
 
 @font-face {
-  font-family: 'Formula1';
-  src: url('/fonts/Formula1Black.ttf') format('truetype');
+  font-family: "Formula1";
+  src: url("/fonts/Formula1Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Formula1';
-  src: url('/fonts/Formula1Bold.ttf') format('truetype');
+  font-family: "Formula1";
+  src: url("/fonts/Formula1Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Formula1';
-  src: url('/fonts/Formula1Wide.ttf') format('truetype');
+  font-family: "Formula1";
+  src: url("/fonts/Formula1Wide.ttf") format("truetype");
   font-weight: 500;
   font-style: wide;
 }
 
 @font-face {
-  font-family: 'Formula1';
-  src: url('/fonts/Formula1Regular.ttf') format('truetype');
+  font-family: "Formula1";
+  src: url("/fonts/Formula1Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Caveat';
-  src: url('/fonts/Caveat-Bold.ttf') format('truetype');
+  font-family: "Caveat";
+  src: url("/fonts/Caveat-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Geist';
-  src: url(/fonts/Geist.ttf) format('truetype');
+  font-family: "Geist";
+  src: url(/fonts/Geist.ttf) format("truetype");
 }
-
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -71,4 +70,23 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.gradient-button {
+  display: flex;
+  width: 302px;
+  padding: var(--Space-300, 12px) var(--Space-600, 24px);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 999px;
+  background: linear-gradient(
+    180deg,
+    rgba(201, 210, 215, 0.05) 0%,
+    rgba(201, 210, 215, 0.15) 100%
+  );
+  backdrop-filter: blur(20px);
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
