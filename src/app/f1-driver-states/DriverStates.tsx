@@ -32,7 +32,7 @@ const DriverStates: React.FC<{
               <motion.div
                 key="name"
                 layout
-                layoutId="nameWraper"
+                layoutId="nameWrapper"
                 className="flex gap-[6px] ml-2 mr-2"
               >
                 <motion.h4
